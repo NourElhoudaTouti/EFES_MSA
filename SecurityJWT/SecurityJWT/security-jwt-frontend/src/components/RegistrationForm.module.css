@@ -1,0 +1,20 @@
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Ensure form takes the full width of the .container */
+    margin: auto;
+}
+
+.inputField, .submitButton {
+    width: 100%; /* Ensure fields and button expand to full width */
+    margin-bottom: 10px; /* Spacing between form fields */
+}
+
+.submitButton {
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.submitButton:hover {
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
