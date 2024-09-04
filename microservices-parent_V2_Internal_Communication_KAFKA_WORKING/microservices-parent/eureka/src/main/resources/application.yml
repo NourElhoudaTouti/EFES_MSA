@@ -1,0 +1,10 @@
+server:
+  port: 8760
+
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+Spring:
+  application:
+    name: eureka

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Citizen-Service" />
+        <module name="api-gateway" />
+        <module name="Birth-Service" />
+        <module name="eureka" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-gateway" target="16" />
+      <module name="Birth-Service" target="16" />
+      <module name="Citizen-Service" target="16" />
+      <module name="eureka" target="16" />
+      <module name="Eureka_Discovery_Server" target="16" />
+      <module name="microservices-parent" target="16" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Birth-Service" options="-parameters" />
+      <module name="Citizen-Service" options="-parameters" />
+      <module name="Eureka_Discovery_Server" options="-parameters" />
+      <module name="api-gateway" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+      <module name="microservices-parent" options="" />
+    </option>
+  </component>
+</project>

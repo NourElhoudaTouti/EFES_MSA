@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/microservices-parent/Birth-Service/Birth-Service.iml" filepath="$PROJECT_DIR$/microservices-parent/Birth-Service/Birth-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservices-parent/Citizen-Service/Citizen-Service.iml" filepath="$PROJECT_DIR$/microservices-parent/Citizen-Service/Citizen-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservices-parent/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/microservices-parent/api-gateway/api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservices-parent/eureka/eureka.iml" filepath="$PROJECT_DIR$/microservices-parent/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservices-parent/microservices-parent.iml" filepath="$PROJECT_DIR$/microservices-parent/microservices-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/microservices-parent_V2_Internal_Communication.iml" filepath="$PROJECT_DIR$/.idea/microservices-parent_V2_Internal_Communication.iml" />
+    </modules>
+  </component>
+</project>
